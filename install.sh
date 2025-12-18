@@ -13,7 +13,7 @@ cd $HOME/arch4devs
 sudo rm -rf $HOME/arch4devs && sudo rm -rf $HOME/.git && sudo rm -rf $HOME/README.md && sudo rm -rf $HOME/LICENSE && sudo rm -rf $HOME/.gitignore # Clean repo trash
 
 # Remove unused packages
-sudo pacman -Rns --noconfirm dolphin vim kitty alacritty eog
+sudo pacman -Rns --noconfirm vim kitty alacritty eog
 
 # Add fnm to path
 echo -e "\neval \"\$(fnm env --use-on-cd --shell zsh)\"" >> $HOME/.zshrc
