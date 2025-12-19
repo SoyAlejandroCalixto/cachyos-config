@@ -3,8 +3,8 @@ while true; do sudo -n true; sleep 60; done 2>/dev/null &
 SUDO_PID=$!
 
 # Install extra packages
-sudo pacman -S --needed --noconfirm fzf bitwarden kvantum pamac-aur
-paru -S --noconfirm --needed fnm cloudflare-warp-bin
+sudo pacman -S --needed --noconfirm fzf bitwarden kvantum pamac-aur rocm-opencl-runtime
+paru -S --noconfirm --needed fnm cloudflare-warp-bin antigravity
 
 # Clone my Hyprland config
 git clone https://github.com/SoyAlejandroCalixto/arch4devs $HOME/arch4devs
