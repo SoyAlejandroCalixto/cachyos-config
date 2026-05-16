@@ -1,0 +1,17 @@
+theme = Catppuccin Macchiato
+font-family = CaskaydiaCove Nerd Font
+font-size = 14
+font-thicken = true
+
+window-width = 90
+window-height = 35
+window-padding-x = 8
+window-padding-y = 0
+background-opacity = 0.8
+background-blur = 20
+
+cursor-style = bar
+cursor-style-blink = true
+
+shell-integration = zsh
+window-theme = ghostty
