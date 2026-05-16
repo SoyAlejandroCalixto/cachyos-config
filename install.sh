@@ -3,7 +3,7 @@ while true; do sudo -n true; sleep 60; done 2>/dev/null &
 SUDO_PID=$!
 
 # Dotfiles
-mv dots/. $HOME/
+cp -r dots/. $HOME/
 
 # -- Package installation --
 sudo pacman -Rns --noconfirm vim alacritty # Remove unused
