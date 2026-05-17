@@ -8,5 +8,5 @@
 	email = soyalejandrocalixto@gmail.com
 	name = soyalejandrocalixto
 [core]
-	editor = zeditor
+	editor = code --wait
 	autocrlf = input
