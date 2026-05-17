@@ -9,7 +9,7 @@ cp -r dots/. $HOME/
 sudo pacman -Rns --noconfirm vim alacritty # Remove unused
 
 sudo pacman -S --noconfirm --needed git github-cli neovim zsh starship ttf-cascadia-code-nerd fastfetch yazi zoxide atuin zsh-autosuggestions zsh-syntax-highlighting ghostty flatpak discord lsd bat fzf mise direnv bitwarden
-paru -S --noconfirm --needed brave-bin pear-desktop
+paru -S --noconfirm --needed brave-bin pear-desktop stremio
 
 mkdir -p ~/.local/share/fonts # Install fonts that do not exist as a package
 git clone https://github.com/simpals/onest.git /tmp/onest
